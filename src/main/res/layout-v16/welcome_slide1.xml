@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/_r1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="4dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+
+
+
+        <TextView
+            android:id="@+id/primary_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@id/button2_minus1"
+            android:layout_toEndOf="@id/C2"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:ems="8"
+            android:fontFamily="@font/roboto"
+            android:gravity="start|left|center_vertical"
+            android:inputType="textMultiLine"
+            android:maxLines="2"
+            android:minEms="8"
+            android:minLines="2"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button2_minus1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.33"
+            android:adjustViewBounds="true"
+            android:background="@drawable/green_button"
+            android:maxWidth="36dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:src="@mipmap/ic_neg"
+            android:text="View"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/C2"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerHorizontal="false"
+            android:layout_gravity="center_horizontal"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="false">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/wlcm1"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@color/white"
+                    android:contentDescription="TODO"
+                    android:scaleType="fitXY" />
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

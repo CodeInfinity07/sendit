@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "628277194336",
+    "firebase_url": "https://sendit-291905.firebaseio.com",
+    "project_id": "sendit-291905",
+    "storage_bucket": "sendit-291905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628277194336:android:13d95dcacb5245ced7dd05",
+        "android_client_info": {
+          "package_name": "com.liteafrica.sendit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628277194336-mjpdfg701rs31motkusrg561nu4nfk8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.liteafrica.sendit",
+            "certificate_hash": "6584623ee4d832bac11820ce19f29e2f94e07a56"
+          }
+        },
+        {
+          "client_id": "628277194336-bindq2opi2mtl9qf247jkvh6fpa13edg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzzKmQl07k5RZd4LaHpiXz_pWJZAghDzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628277194336-bindq2opi2mtl9qf247jkvh6fpa13edg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

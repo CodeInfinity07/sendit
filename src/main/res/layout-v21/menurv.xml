@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/_c1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false">
+
+        <ImageView
+            android:id="@+id/img_profilo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="TODO"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bnb" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center|center_vertical"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:minHeight="56dp"
+        android:minEms="8"
+        android:minLines="2"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</LinearLayout>
